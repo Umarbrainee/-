@@ -5,7 +5,7 @@ tasks = ["Playing Cricket", "Watching Anime","Gaming"]
 for actual_tasks in number_of_tasks:
     tasks = tasks[0:int(actual_tasks)]
     print("Please perform these tasks: " + str(tasks)) 
-for x in tasks: 
+for x in tasks:
     tasks_to_be_done = input("Which task have you cpompleted: ")
     tasks_to_be_done = tasks_to_be_done.lower()
     if tasks_to_be_done == "playing cricket":
@@ -17,3 +17,5 @@ for x in tasks:
     if tasks_to_be_done == "gaming":
         tasks_left = tasks.remove("Gaming")
         print("These tasks are left: "+str(tasks))
+    else:
+        print("Please check the spelling of the words")
