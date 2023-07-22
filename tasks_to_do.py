@@ -17,5 +17,4 @@ for x in tasks:
     if tasks_to_be_done == "gaming":
         tasks_left = tasks.remove("Gaming")
         print("These tasks are left: "+str(tasks))
-    else:
-        print("Please check the spelling of the words")
+
